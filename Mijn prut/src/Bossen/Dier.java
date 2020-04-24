@@ -28,3 +28,4 @@ public class Dier implements Leven {
         System.out.println(naam + " is aan het slapen.");
     }
 }
+//dit moet ik doen om het te pushen
