@@ -104,8 +104,6 @@ public class Main {
 
         List<Character> volgorde = new ArrayList<>();
 
-        System.out.println(n0.nextB());
-
         volgorde.add('B');
         volgorde.add('D');
         volgorde.add('C');
@@ -114,6 +112,9 @@ public class Main {
         volgorde.add('E');
         volgorde.add('A');
 
+        System.out.println(n0.nextB());
+
+        System.out.println(n0.nextA(volgorde, n0));
         System.out.println(n0.nextA(volgorde, n0));
     }
 }
